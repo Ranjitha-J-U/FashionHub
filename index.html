@@ -1,0 +1,52 @@
+<!<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ranjitha's Fashion Hub</title>
+
+  <!-- Google Fonts (premium, elegant) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Ranjitha's <span class="accent">Fashion Hub</span></h1>
+      <p class="tagline">Premium Formal Wear</p>
+    </div>
+
+    <div class="actions">
+      <button id="cartBtn" class="cart-btn" aria-label="Open cart">
+        <svg class="cart-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 6h15l-1.5 9h-12z"></path>
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="19" cy="21" r="1"></circle>
+        </svg>
+        <span id="cartCount" class="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <p class="lead">Discover our curated collection of premium formal wear — shirts, trousers, blazers and suits crafted for an elegant presence.</p>
+    </section>
+
+    <!-- Product grid container (JS will populate 10 products) -->
+    <section id="products" class="product-grid" aria-label="Products">
+      <!-- product cards inserted here by script.js -->
+    </section>
+  </main>
+
+  <!-- Simple toast popup -->
+  <div id="toast" class="toast" role="status" aria-live="polite">Added to cart</div>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ranjitha's Fashion Hub — All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
