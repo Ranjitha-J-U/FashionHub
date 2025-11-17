@@ -1,2 +1,2 @@
 # Practice
-This is repository for preparing DSA kind of questions
+This is my FrontEnd project that i have created while learning FrontEnd technology
