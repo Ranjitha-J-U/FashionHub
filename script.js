@@ -3,16 +3,16 @@
 
 // Product data (10 formal wear sets). Using placeholder images — replace with real images if available.
 const products = [
-  { id: 1, name: "Classic Charcoal Suit", price: 129.00, img: "https://via.placeholder.com/600x450?text=Charcoal+Suit" },
-  { id: 2, name: "Navy Formal Blazer", price: 99.00, img: "https://via.placeholder.com/600x450?text=Navy+Blazer" },
-  { id: 3, name: "White Cotton Shirt", price: 35.00, img: "https://via.placeholder.com/600x450?text=White+Shirt" },
-  { id: 4, name: "Slim Fit Trousers", price: 49.00, img: "https://via.placeholder.com/600x450?text=Slim+Trousers" },
-  { id: 5, name: "Grey Three-Piece Set", price: 199.00, img: "https://via.placeholder.com/600x450?text=Grey+3PC+Set" },
-  { id: 6, name: "Black Formal Coat", price: 139.00, img: "https://via.placeholder.com/600x450?text=Black+Coat" },
-  { id: 7, name: "Ivory Silk Shirt", price: 59.00, img: "https://via.placeholder.com/600x450?text=Ivory+Silk+Shirt" },
-  { id: 8, name: "Tailored Vest", price: 45.00, img: "https://via.placeholder.com/600x450?text=Tailored+Vest" },
-  { id: 9, name: "Elegant Tie Set", price: 22.00, img: "https://via.placeholder.com/600x450?text=Tie+Set" },
-  { id: 10, name: "Premium Blazer & Trousers", price: 159.00, img: "https://via.placeholder.com/600x450?text=Premium+Set" }
+  { id: 1, name: "Classic Charcoal Suit", price: 1299.00, img: "https://d1fufvy4xao6k9.cloudfront.net/images/blog/posts/2021/06/278a0084.jpg" },
+  { id: 2, name: "Navy Formal Blazer", price: 1999.00, img: "https://i.pinimg.com/736x/f9/5d/6c/f95d6c9f9856209beae46a8e05a27384.jpg" },
+  { id: 3, name: "White Cotton Shirt", price: 1349.00, img: "https://i.pinimg.com/236x/4b/88/17/4b881777a89fbc2eec56a0a8de90ee7f.jpg" },
+  { id: 4, name: "Slim Fit Trousers", price: 999.00, img: "https://i.pinimg.com/736x/cf/3c/13/cf3c135728f28f7927616ee4bb3b98e2.jpg" },
+  { id: 5, name: "Grey Three-Piece Set", price: 2999.00, img: "https://ep-website-media.s3.ap-southeast-1.amazonaws.com/my/wp-content/uploads/2025/05/Tailored-Blazers-1.jpg" },
+  { id: 6, name: "Black Formal Coat", price: 3499.00, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ynijkZYCFi1CBj4-1M_zntmYV-GMXdOtcLkK23G94g_QxjEIVSvyC5CpeipFQWSUaWs&usqp=CAU" },
+  { id: 7, name: "Ivory Silk Shirt", price: 1500.00, img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fideas%2Fpink-office-wear-work-outfits%2F961817445646%2F&psig=AOvVaw0xT2MGwHWa0_3t8ruKlVrc&ust=1764351576880000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCODM_vzvkpEDFQAAAAAdAAAAABAE" },
+  { id: 8, name: "Tailored Vest", price: 2499.00, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtc7ST9NG1h2DP4NtKBqOe3rqrhk9cBRmx81vW6tJyHNNq0Zs5gck3U2suxyzj3flv430&usqp=CAU" },
+  { id: 9, name: "Elegant Tie Set", price: 1800.00, img: "https://i.pinimg.com/236x/f0/6a/f9/f06af93ce40ef0ec433f9b88769fb128.jpg" },
+  { id: 10, name: "Premium Blazer & Trousers", price: 1599.00, img: "https://via.placeholder.com/600x450?text=Premium+Set" }
 ];
 
 // Simple cart stored in localStorage for persistence
@@ -123,3 +123,4 @@ document.addEventListener('DOMContentLoaded', () => {
     alert(summary);
   });
 });
+
